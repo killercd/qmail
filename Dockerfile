@@ -7,8 +7,8 @@ RUN sed -i "s/\# deb-src/deb-src/g" /etc/apt/sources.list && apt-get update && a
 
 COPY assets/setup/ /app/setup/
 COPY assets/config/ /app/setup/config/
-RUN chmod 755 /app/setup/install.sh
-RUN /app/setup/install.sh
+#RUN chmod 755 /app/setup/install.sh
+#RUN /app/setup/install.sh
 
 COPY assets/init /app/init
 RUN chmod 755 /app/init

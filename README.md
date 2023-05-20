@@ -102,6 +102,16 @@ Now you can access the container shell using the command
 sudo docker-enter qmail
 ```
 
+
+# Windows installation
+build qmail container
+win-build-up.bat build
+
+run container:
+win-build-up.bat
+
+
+
 For more information refer https://github.com/jpetazzo/nsenter
 
 # References
